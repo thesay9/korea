@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang=”ko“>
+<head>
+    <meta charset=”utf-8“>
+    <title>나의 첫 HTML</title>
+    <style>
+        h1,h2,h3{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>은후의 은밀한 사생활</h1>
+    <h2>동규와 여사친의 비밀</h2>
+    <h3>부건의 옴므파탈</h3>
+    <p>여자를 <strong>후리는</strong> 5가지 방법</p>
+
+    <details>
+        <summary>자신감 있는 태도</summary>
+        <p>말투.표정.자세가 일관되게 안정적이면 신뢰감을 줘요.</p>
+    </details>
+
+    <ul>
+        <li>존중하는 자세</li>
+        <li>목표 의식</li>
+        <li>유머 감각</li>
+        <li>자기 관리</li>
+    </ul>
+
+    <img src="asdfasdfasdfasdf.jpg"  alt="나의 사진">
+    <script>
+        const h1 = document.querySelector('h1');
+        h1.addEventListener('click', () => {
+            h1.style.color = (h1.style.color === 'red') ? 'blue' : 'red';
+        });
+    </script>
+</body>
+</html>
